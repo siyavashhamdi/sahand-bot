@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28729.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SahandTlgBotWebHook", "SahandTlgBotWebHook\SahandTlgBotWebHook.csproj", "{A5582D4D-17FB-42A8-ADD9-A03656614BA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sahand.Aliver", "Sahand.Aliver\Sahand.Aliver.csproj", "{3EBAD0D1-A156-41B9-ADF7-6756F0B5637F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5582D4D-17FB-42A8-ADD9-A03656614BA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5582D4D-17FB-42A8-ADD9-A03656614BA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5582D4D-17FB-42A8-ADD9-A03656614BA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5582D4D-17FB-42A8-ADD9-A03656614BA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EBAD0D1-A156-41B9-ADF7-6756F0B5637F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EBAD0D1-A156-41B9-ADF7-6756F0B5637F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EBAD0D1-A156-41B9-ADF7-6756F0B5637F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EBAD0D1-A156-41B9-ADF7-6756F0B5637F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B3698605-F4F2-437C-A344-6E4ED3B3F52E}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,73 @@
+SalamSalamBot init WebHook2
+Error2: System.ArgumentException: A route named 'MS_attributerouteWebApi' is already in the route collection. Route names must be unique.
+Parameter name: name
+   at System.Web.Routing.RouteCollection.Add(String name, RouteBase item)
+   at System.Web.Http.WebHost.Routing.HostedHttpRouteCollection.Add(String name, IHttpRoute route)
+   at System.Web.Http.Routing.AttributeRoutingMapper.MapAttributeRoutes(HttpConfiguration configuration, IInlineConstraintResolver constraintResolver, IDirectRouteProvider directRouteProvider)
+   at System.Web.Http.HttpConfigurationExtensions.MapHttpAttributeRoutes(HttpConfiguration configuration)
+   at SahandTlgBotWebHook.WebApiConfig.Register(HttpConfiguration config) in D:\myPrj\sahand-cable\SahandTlgBotWebHook\SahandTlgBotWebHook\App_Start\WebApiConfig.cs:line 15
+   at System.Web.Http.GlobalConfiguration.Configure(Action`1 configurationCallback)
+   at SahandTlgBotWebHook.WebForm1.Page_Load(Object sender, EventArgs e) in D:\myPrj\sahand-cable\SahandTlgBotWebHook\SahandTlgBotWebHook\Index.aspx.cs:line 21
+ Error2: System.ArgumentException: A route named 'MS_attributerouteWebApi' is already in the route collection. Route names must be unique.
+Parameter name: name
+   at System.Web.Routing.RouteCollection.Add(String name, RouteBase item)
+   at System.Web.Http.WebHost.Routing.HostedHttpRouteCollection.Add(String name, IHttpRoute route)
+   at System.Web.Http.Routing.AttributeRoutingMapper.MapAttributeRoutes(HttpConfiguration configuration, IInlineConstraintResolver constraintResolver, IDirectRouteProvider directRouteProvider)
+   at System.Web.Http.HttpConfigurationExtensions.MapHttpAttributeRoutes(HttpConfiguration configuration)
+   at SahandTlgBotWebHook.WebApiConfig.Register(HttpConfiguration config) in D:\myPrj\sahand-cable\SahandTlgBotWebHook\SahandTlgBotWebHook\App_Start\WebApiConfig.cs:line 15
+   at System.Web.Http.GlobalConfiguration.Configure(Action`1 configurationCallback)
+   at SahandTlgBotWebHook.WebForm1.Page_Load(Object sender, EventArgs e) in D:\myPrj\sahand-cable\SahandTlgBotWebHook\SahandTlgBotWebHook\Index.aspx.cs:line 21
+ Error2: System.ArgumentException: A route named 'MS_attributerouteWebApi' is already in the route collection. Route names must be unique.
+Parameter name: name
+   at System.Web.Routing.RouteCollection.Add(String name, RouteBase item)
+   at System.Web.Http.WebHost.Routing.HostedHttpRouteCollection.Add(String name, IHttpRoute route)
+   at System.Web.Http.Routing.AttributeRoutingMapper.MapAttributeRoutes(HttpConfiguration configuration, IInlineConstraintResolver constraintResolver, IDirectRouteProvider directRouteProvider)
+   at System.Web.Http.HttpConfigurationExtensions.MapHttpAttributeRoutes(HttpConfiguration configuration)
+   at SahandTlgBotWebHook.WebApiConfig.Register(HttpConfiguration config)
+   at System.Web.Http.GlobalConfiguration.Configure(Action`1 configurationCallback)
+   at SahandTlgBotWebHook.WebForm1.Page_Load(Object sender, EventArgs e)
+ Error2: System.ArgumentException: A route named 'MS_attributerouteWebApi' is already in the route collection. Route names must be unique.
+Parameter name: name
+   at System.Web.Routing.RouteCollection.Add(String name, RouteBase item)
+   at System.Web.Http.WebHost.Routing.HostedHttpRouteCollection.Add(String name, IHttpRoute route)
+   at System.Web.Http.Routing.AttributeRoutingMapper.MapAttributeRoutes(HttpConfiguration configuration, IInlineConstraintResolver constraintResolver, IDirectRouteProvider directRouteProvider)
+   at System.Web.Http.HttpConfigurationExtensions.MapHttpAttributeRoutes(HttpConfiguration configuration)
+   at SahandTlgBotWebHook.WebApiConfig.Register(HttpConfiguration config)
+   at System.Web.Http.GlobalConfiguration.Configure(Action`1 configurationCallback)
+   at SahandTlgBotWebHook.WebForm1.Page_Load(Object sender, EventArgs e)
+ Bot init WebHook2
+Error2: System.ArgumentException: A route named 'MS_attributerouteWebApi' is already in the route collection. Route names must be unique.
+Parameter name: name
+   at System.Web.Routing.RouteCollection.Add(String name, RouteBase item)
+   at System.Web.Http.WebHost.Routing.HostedHttpRouteCollection.Add(String name, IHttpRoute route)
+   at System.Web.Http.Routing.AttributeRoutingMapper.MapAttributeRoutes(HttpConfiguration configuration, IInlineConstraintResolver constraintResolver, IDirectRouteProvider directRouteProvider)
+   at System.Web.Http.HttpConfigurationExtensions.MapHttpAttributeRoutes(HttpConfiguration configuration)
+   at SahandTlgBotWebHook.WebApiConfig.Register(HttpConfiguration config) in D:\myPrj\sahand-cable\SahandTlgBotWebHook\SahandTlgBotWebHook\App_Start\WebApiConfig.cs:line 15
+   at System.Web.Http.GlobalConfiguration.Configure(Action`1 configurationCallback)
+   at SahandTlgBotWebHook.WebForm1.Page_Load(Object sender, EventArgs e) in D:\myPrj\sahand-cable\SahandTlgBotWebHook\SahandTlgBotWebHook\Index.aspx.cs:line 21
+ Salam
+Salam
+Salam
+Salam
+Salam
+Error2: System.AggregateException: One or more errors occurred. ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The request was aborted: Could not create SSL/TLS secure channel.
+   at System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   at System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<MakeRequestAsync>d__54`1.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Task.Wait()
+   at SahandTlgBotWebHook.WebApiApplication.Application_Start() in D:\myPrj\sahand-cable\SahandTlgBotWebHook\SahandTlgBotWebHook\Global.asax.cs:line 28
+---> (Inner Exception #0) System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The request was aborted: Could not create SSL/TLS secure channel.
+   at System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   at System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<MakeRequestAsync>d__54`1.MoveNext()<---
+
+ Bot init WebHook2
